@@ -2,24 +2,53 @@
 <html>
     <head>
         <meta charset='utf-8'>
-        <title>Kuntachat</title>
+        <title>kunta.online v0.0.0.1</title>
         <link rel="stylesheet" href="style.css">
     </head>
     
     <body>
-        <div id="otsikkobox">
-            <h1 id="otsikko">kuntachat</h1>
-            <ul id="ylavalikko">
+        <div class="otsikkobox">
+            <h1 class="otsikko">kunta.online</h1>
+            <!-- <ul id="ylavalikko">
+                <li id="valikko">etusivu</li>
+                <li id="valikko">tapahtumat</li>
+                <li id="valikko">keskustelu</li>
                 <li id="valikko">valikko</li>
                 <li id="valikko">valikko</li>
-                <li id="valikko">valikko</li>
-                <li id="valikko">valikko</li>
-                <li id="valikko">valikko</li>
-            </ul>
+                <li id="kirjaudu">kirjaudu</li>
+            </ul> -->
         </div>
 
+        <div class="navbar">
+            <a class="valikkobox" href="#etusivu">Etusivu</a>
+            <a class="valikkobox" href="#tapahtumat">Tapahtumat</a>
+            <a class="valikkobox" href="#keskustelu">Keskustelu</a>
+            <div class="dropdown">
+              <button class="dropbtn">Dropdown 
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+              </div>
+            </div> 
+          </div>
+
+          <div class="fb-page" 
+          data-tabs="events"
+          data-href="https://www.facebook.com/imdb/"
+          data-width="380"
+          data-height="400">
+          </div>
+
         <div id="tekstibox">
-            <p id="teksti">Tervetuoloa kaikki trollit</p>
+            <p class="teksti">Tervetuoloa kaikki trollit ja tervetuoloa sivulle</p>
+        </div>
+
+        <div id="haku">
+            <input id="hakubox" type="text"/>
+            <button>HAE</button>
         </div>
         
     </body>
