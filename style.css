@@ -1,9 +1,13 @@
 
 .otsikkobox{
+    float: left;
+    width: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
     background-color: rgb(30, 30, 30);
     border: 0;
-    padding-bottom: 0.5em;
-    padding-top: 0.5em;
+    height: 10em;
 }
 
 .otsikko{
@@ -11,7 +15,8 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-top: 1em;
     margin-left: 2em;
-    
+    margin-right: 20em;
+    border: dotted 5px;
 }
 
 .teksti{
@@ -30,9 +35,11 @@ li#valikko{
     padding-right: 1em;
 }
 
-li#kirjaudu{
+.kirjaudu{
     float: right;
-    padding-right: 3em;
+    margin-right: 3em;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body{
@@ -40,11 +47,18 @@ body{
 }
 
 div#haku{
-    padding-left: 10em;;
+    margin-left: 10em;
 }
 
-input#hakuboksi{
-    width: 100em;
+.hakunappi{
+    height: 6em;
+    padding-top: 2em;
+}
+
+.hakubox{
+    width: 20em;
+    height: 2em;
+    font-size: 2em;
 }
 
 .valikkobox{
@@ -52,8 +66,28 @@ input#hakuboksi{
     width: 8em;
 }
 
+.kirjautuminen{
+    float: right;
+}
+
+.sapobox, .salabox{
+    border: dotted 5px;
+    width: 20em;
+    margin-bottom: 0.5em;
+}
+
+.sapobox{
+    margin-right: ;
+}
+
+.kirjaudu{
+    height: 2em;
+}
+
 /* Navbar container */
 .navbar {
+    position: absolute;
+    left: 0;
     overflow: hidden;
     background-color: rgb(30, 30, 30);
     font-family: Arial;
